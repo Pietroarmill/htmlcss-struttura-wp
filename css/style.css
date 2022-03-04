@@ -13,21 +13,58 @@
 
 /* COMMON */
 .container{
-    width: 80%;
     margin: 20px auto;
+    width: 80%;
 }
 
+.float{
+    float: left;
+}
+
+/* HEADER */
 .header{
     background-color: #e579e6;
     height: 100px;
 }
 
+/* MAIN */
 .banner{
+    margin: 20px 0;
     height: 300px;
     background-color: #e1d67a;
 } 
 
+/* section content */
 .content{
-    height: 400px;
     background-color: #0186fc;
+}
+
+
+.content .row{
+    margin-bottom: 15px;
+    height: 70px;
+    background-color: #abcfe7;
+}
+
+.column{
+    margin-bottom: 15px;
+    height: 300px;
+    background-color: #abcfe7;
+}
+
+.sides-column{
+    width: 25%;
+}
+
+.center-column{
+    margin: 0 1.5%;
+    width: calc(50% - 3%);
+}
+
+/* FOOTER */
+
+.footer{
+    margin-top: 5px;
+    height: 50px;
+    background-color: #8801fe;
 }
